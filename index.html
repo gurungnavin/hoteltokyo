@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Tokyo</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Hotel 東京</a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="#about">about</a>
+            <a href="#room">rooms</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="location.html">location</a>
+            <a href="#reservation" class="btn">宿泊予約</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars" </div>
+    </header>
+    <!-- end -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat">
+                    <div class="contents">
+                        <h3>"夢叶う場所、心豊かなひととき。"</h3>
+                        <a href="#" class="btn">visit our offer</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide2.jpg) no-repeat">
+                    <div class="contents">
+                        <h3>"夢叶う場所、心豊かなひととき。"</h3>
+                        <a href="#" class="btn">visit our offer</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide3.jpg) no-repeat">
+                    <div class="contents">
+                        <h3>"夢叶う場所、心豊かなひととき。"</h3>
+                        <a href="#" class="btn">visit our offer</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide4.jpg) no-repeat">
+                    <div class="contents">
+                        <h3>"夢叶う場所、心豊かなひととき。"</h3>
+                        <a href="#" class="btn">visit our offer</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- Avialability Section -->
+
+    <section class="availability">
+        <form action="">
+            <div class="box">
+                <p>Check in <span>*</span></p>
+                <input type="date" class="input" />
+            </div>
+
+            <div class="box">
+                <p>Check Out <span>*</span></p>
+                <input type="date" class="input" />
+            </div>
+
+            <div class="box">
+                <p>adult<span>*</span></p>
+                <select name="" id="adults" class="input">
+                    <option value="1">1 adult</option>
+                    <option value="2">2 adults</option>
+                    <option value="3">3 adults</option>
+                    <option value="4">4 adults</option>
+                    <option value="5">5 adults</option>
+                    <option value="6">6 adults</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>childrens<span>*</span></p>
+                <select name="" id="adults" class="input">
+                    <option value="1">0 child</option>
+                    <option value="1">1 child</option>
+                    <option value="2">2 childs</option>
+                    <option value="3">3 childs</option>
+                    <option value="4">4 childs</option>
+                    <option value="5">5 childs</option>
+                    <option value="6">6 childs</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>rooms <span>*</span></p>
+                <select name="" id="rooms" class="input">
+                    <option value="1">1 room</option>
+                    <option value="2">2 rooms</option>
+                    <option value="3">3 rooms</option>
+                    <option value="4">4 rooms</option>
+                    <option value="5">5 rooms</option>
+                </select>
+            </div>
+            <input type="submit" value="check availability" class="btn" />
+        </form>
+    </section>
+
+    <!-- end -->
+
+    <!-- About Section -->
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="image">
+                <img src="images/about.jpg" alt="" />
+            </div>
+            <div class="contents">
+                <h3>About Us</h3>
+                <p>
+                    当ホテルの特徴と使命についてご紹介させていただきます。私たちのホテルはお客様に最高の滞在体験を提供することをお約束し、
+                    心地よい環境と質の高いサービスで、快適な時間をお過ごしいただけるよう努めています。
+                    地元の文化や風土を大切にし、お客様に親しみやすく、温かな雰囲気を提供することを重視しており、
+                    ホスピタリティの心でお迎えいたします。
+                </p>
+                <p>
+                    当ホテルのスタッフは、お客様が安心して滞在できるよう、細部にわたり心を込めたサービスを提供しています。
+                    私たちはお客様が快適にくつろげる空間を提供し、旅の思い出に残る体験を演出することを誇りに思っています。
+                    お客様のご期待に応えるために日々努力し、皆様が心地よい滞在をお楽しみいただけることを誠心誠意願っております。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="room" id="room">
+        <h1 class="heading"> Our Rooms</h1>
+        <div class="swiper room-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/room-1.jpg" alt="room-1">
+                        <span class="price">3,500円/night</span>
+                        <span class="fa fa-shopping-cart"></span>
+                    </div>
+                    <div class="content">
+                        <h3>Single Room</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa corporis odit consequatur
+                            ducimus ea nisi? Magnam maiores commodi, accusantium autem doloribus soluta! Nostrum, culpa
+                            minima..</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/room-2.jpg" alt="room-1">
+                        <span class="price">9,500円/night</span>
+                        <span class="fa fa-shopping-cart"></span>
+                    </div>
+                    <div class="content">
+                        <h3>Family Room</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor officiis autem explicabo,
+                            officia laudantium quidem amet iure enim aut saepe. Animi maxime cumque sunt assumenda porro
+                            nesciunt illum ipsum ab.
+                        </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/room-3.jpg" alt="room-1">
+                        <span class="price">11,500円/night</span>
+                        <span class="fa fa-shopping-cart"></span>
+                    </div>
+                    <div class="content">
+                        <h3>Luxury Room</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa corporis odit consequatur
+                            ducimus ea nisi? Magnam maiores commodi, accusantium autem doloribus soluta! Nostrum, culpa
+                            minima..</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/room-4.jpg" alt="room-1">
+                        <span class="price">10,500円/night</span>
+                        <span class="fa fa-shopping-cart"></span>
+                    </div>
+                    <div class="content">
+                        <h3>Explore Room</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa corporis odit consequatur
+                            ducimus ea nisi? Magnam maiores commodi, accusantium autem doloribus soluta! Nostrum, culpa
+                            minima..</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/room-5.jpg" alt="room-1">
+                        <span class="price">7,500円/night</span>
+                        <span class="fa fa-shopping-cart"></span>
+                    </div>
+                    <div class="content">
+                        <h3>Daily Room</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa corporis odit consequatur
+                            ducimus ea nisi? Magnam maiores commodi, accusantium autem doloribus soluta! Nostrum, culpa
+                            minima..</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/room-6.jpg" alt="room-1">
+                        <span class="price">4,500円/night</span>
+                        <span class="fa fa-shopping-cart"></span>
+                    </div>
+                    <div class="content">
+                        <h3>Daily Room</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa corporis odit consequatur
+                            ducimus ea nisi? Magnam maiores commodi, accusantium autem doloribus soluta! Nostrum, culpa
+                            minima..</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- end -->
+
+    <!-- Gallery Section Start -->
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">Our Gallery</h1>
+        <div class="swiper gallery-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="images/gallery1.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="images/gallery2.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="images/gallery3.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="images/gallery4.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="images/gallery5.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="images/gallery6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- end -->
+
+
+    <!-- Review Secton start -->
+
+    <section class="review" id="review">
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <h2 class="heading">our client</h2>
+                    <i class="fas fa-quote-right"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam mollitia iste molestias neque
+                        inventore et molestiae officiis perferendis impedit itaque!</p>
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="user-info">
+                            <h3>滝沢 山田</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h2 class="heading">our client</h2>
+                    <i class="fas fa-quote-right"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore aliquam temporibus in esse,
+                        dolorum ipsum, et magnam ullam minus, iure harum nisi nesciunt! Impedit optio deserunt.</p>
+                    <div class="user">
+                        <img src="images/pic-2.png" alt="">
+                        <div class="user-info">
+                            <h3>斉藤 なみ</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h2 class="heading">our client</h2>
+                    <i class="fas fa-quote-right"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ullam reiciendis esse laudantium
+                        laboriosam odio vero nam officia saepe recusandae!</p>
+                    <div class="user">
+                        <img src="images/pic-3.png" alt="">
+                        <div class="user-info">
+                            <h3>斉藤 なみ</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h2 class="heading">our client</h2>
+                    <i class="fas fa-quote-right"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptas exercitationem sequi quae
+                        facilis quasi nobis magni earum nam provident delectus, harum odio consequatur fugiat sapiente
+                        esse officiis id quos?</p>
+                    <div class="user">
+                        <img src="images/pic-4.png" alt="">
+                        <div class="user-info">
+                            <h3>斉藤 なみ</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- Reservation Section -->
+
+    <section class="reservation" id="reservation">
+        <h1 class="heading">book now</h1>
+        <form action="">
+            <div class="container">
+                <div class="box">
+                    <p>name <span>*</span></p>
+                    <input type="text" placeholder="enter your name" class="input" required>
+                </div>
+                <div class="box">
+                    <p>email <span>*</span></p>
+                    <input type="email" placeholder="enter your email" class="input" required>
+                </div>
+                <div class="box">
+                    <p>check in <span>*</span></p>
+                    <input type="date" class="input" required>
+                </div>
+                <div class="box">
+                    <p>check out <span>*</span></p>
+                    <input type="date" class="input" required>
+                </div>
+                <div class="box">
+                    <p>adult <span>*</span></p>
+                    <select name="adults" class="input">
+                        <option value="1">1 adult</option>
+                        <option value="2">2 Adults</option>
+                        <option value="3">3 Adults</option>
+                        <option value="4">4 Adults</option>
+                        <option value="5">5 Adults</option>
+                        <option value="6">6 Adults</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>child <span>*</span></p>
+                    <select name="child" class="input">
+                        <option value="0">0 child</option>
+                        <option value="1">1 child</option>
+                        <option value="2">2 childs</option>
+                        <option value="3">3 childs</option>
+                        <option value="4">4 childs</option>
+                        <option value="5">5 childs</option>
+                        <option value="6">6 childs</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>Rooms <span>*</span></p>
+                    <select name="rooms" class="input">
+                        <option value="1">1 room</option>
+                        <option value="2">2 rooms</option>
+                        <option value="3">3 rooms</option>
+                        <option value="4">4 rooms</option>
+                        <option value="5">5 rooms</option>
+                        <option value="6">6 rooms</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>room type <span>*</span></p>
+                    <select name="room type" class="input">
+                        <option value="1">exclusive rooms</option>
+                        <option value="2">family rooms</option>
+                        <option value="3">daily rooms</option>
+                        <option value="4">panoramic rooms</option>
+                    </select>
+                </div>
+            </div>
+            <input type="submit" value="空室状況をチェック" class="btn">
+
+        </form>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- footer section -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+810704333056</a>
+                <a href="#"><i class="fas fa-phone"></i>+810704333056</a>
+                <a href="#" class="email"><i class="fa-regular fa-envelope"></i>hoteltokyo@gmail.com</a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i>tokyo,japan</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#about"><i class="fas fa-arrow-right"></i>about</a>
+                <a href="#room"><i class="fas fa-arrow-right"></i>rooms</a>
+                <a href="#gallery"><i class="fas fa-arrow-right"></i>gallery</a>
+                <a href="#reservation"><i class="fas fa-arrow-right"></i>reservation</a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>refund policy</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>my account</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>new equipments</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>trainers</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>new offers</a>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <a href="" class="fab fa-facebook-f"></a>
+            <a href="" class="fab fa-instagram"></a>
+            <a href="" class="fab fa-twitter"></a>
+            <a href="" class="fab fa-pinterest"></a>
+        </div>
+        <div class="copyright">
+            &copy; copyright @ 2023 by <span> gurungnavin</span>
+        </div>
+    </section>
+
+    <!-- end -->
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom javascript link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
